@@ -71,7 +71,15 @@
 #   end
 # end
 
-def volume_of_cube(length)
-  volume = length ** 3
+# def volume_of_cube(length)
+#   volume = length ** 3
+#   return volume
+# end
+
+def volume_of_sphere(radius)
+
+  volume = (4/3)* (Math::PI)* (radius ** 3) #Got help with this from Learn to program by Chris Pine
+
   return volume
+
 end
