@@ -76,10 +76,19 @@
 #   return volume
 # end
 
-def volume_of_sphere(radius)
+# def volume_of_sphere(radius)
+#
+#   volume = (4/3)* (Math::PI)* (radius ** 3) #Got help with this from Learn to
+  #program by Chris Pine where I got the Math object for PI
+#
+#   return volume
+#
+# end
 
-  volume = (4/3)* (Math::PI)* (radius ** 3) #Got help with this from Learn to program by Chris Pine
+def fahrenheit_to_celsius(fahrenheit)
 
-  return volume
+  celsius = 0.5556* (fahrenheit - 32)
+
+  return celsius.to_i
 
 end

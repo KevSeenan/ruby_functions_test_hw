@@ -89,18 +89,21 @@ class FunctionsTest < MiniTest::Test
   # end
 
   # #Given the radius of a sphere calculate the volume
-  def test_volume_of_sphere()
-    #add test code here
-    actual = volume_of_sphere(5)
-    expected = 392.6990816987241
-    assert_equal(expected, actual)
-
-  end
-  #
-  # #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
+  # def test_volume_of_sphere()
   #   #add test code here
+  #   actual = volume_of_sphere(5)
+  #   expected = 392.6990816987241  #This value was obtained from the error  when it was set to 3
+  #   assert_equal(expected, actual)
+  #
   # end
+  #
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius()
+    #add test code here
+    actual = fahrenheit_to_celsius(68)
+    expected = 20
+    assert_equal(expected, actual)
+  end
 
 
 end
