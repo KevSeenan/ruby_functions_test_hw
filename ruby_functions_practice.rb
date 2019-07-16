@@ -22,8 +22,14 @@
 #
 # end
 
-def divide(first_num, second_num)
+# def divide(first_num, second_num)
+#
+#   return first_num / second_num
+#
+# end
 
-  return first_num / second_num
-  
+def length_of_string(string)
+
+  return string.length
+
 end
