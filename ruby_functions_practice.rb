@@ -28,8 +28,14 @@
 #
 # end
 
-def length_of_string(string)
+# def length_of_string(string)
+#
+#   return string.length
+#
+# end
 
-  return string.length
+def join_string(string_1, string_2)
+
+  return string_1 + string_2
 
 end
