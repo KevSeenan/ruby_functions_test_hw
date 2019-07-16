@@ -48,9 +48,13 @@
 
 def number_to_full_month_name(number)
 
-case number
-when 1
-  return "January"
-end
+  case number
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+  end
 
 end
