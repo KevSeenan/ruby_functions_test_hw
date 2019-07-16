@@ -59,14 +59,19 @@
 #
 # end
 
-def number_to_short_month_name(number)
+# def number_to_short_month_name(number)
+#
+#   case number
+#   when 1
+#     return "Jan"
+#   when 4
+#     return "Apr"
+#   when 10
+#     return "Oct"
+#   end
+# end
 
-  case number
-  when 1
-    return "Jan"
-  when 4
-    return "Apr"
-  when 10
-    return "Oct"
-  end
+def volume_of_cube(length)
+  volume = length ** 3
+  return volume
 end
